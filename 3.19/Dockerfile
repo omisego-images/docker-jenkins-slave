@@ -1,4 +1,4 @@
-FROM jenkinsci/jnlp-slave
+FROM jenkinsci/jnlp-slave:3.19-1
 MAINTAINER Kridsada Thanabulpong <sirn@omise.co>
 
 ENV CLOUDSDK_CORE_DISABLE_PROMPTS 1
